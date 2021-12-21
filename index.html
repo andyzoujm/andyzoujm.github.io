@@ -20,10 +20,10 @@
               <p style="text-align:center">
                 <name>Andy Zou</name>
               </p>
-              <p>I am a 4th Yr EECS MS student at UC Berkeley where I am advised by <a href="https://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a>. I am interested in Trustworthy Machine Learning.
+              <p>I am a 4th Yr EECS MS student at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a>. I am interested in Trustworthy Machine Learning.
               </p>
               <p>
-                Previously, I received my BS in Computer Science and Applied Math from Berkeley (2018-2021) during which I did research at <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a>, <a href="https://haas.berkeley.edu/">Berkeley Haas</a>, and <a href="https://whitneylab.berkeley.edu/">The Whitney Laboratory</a>.
+                Previously, I received my BA in Computer Science and Applied Math from Berkeley (2018-2021). During my undergrad studies, I did research at <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a>, <a href="https://haas.berkeley.edu/">Berkeley Haas</a>, and <a href="https://whitneylab.berkeley.edu/">The Whitney Laboratory</a>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:andyzou_jiaming@berkeley.edu">Email</a> &nbsp/&nbsp
@@ -37,6 +37,17 @@
             </td>
           </tr>
         </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>What's New</heading>
+              <p>[Dec 9, 2021] <strong>PixMix</strong> code and weights released <a href="https://github.com/andyzoujm/pixmix/">here</a>.</p>
+              <p>[Oct 25, 2021] <strong>Jiminy Cricket</strong> environment released <a href="https://github.com/hendrycks/jiminy-cricket/">here</a>.</p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -121,6 +132,44 @@
             </td>
           </tr>
 
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/multitask.jpg' width="160"></div>
+                <img src='images/multitask.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2009.03300">
+                <papertitle>Measuring Massive Multitask Language Understanding</papertitle>
+              </a>
+              <br>
+              Dan Hendrycks, Collin Burns, Steven Basart, <strong>Andy Zou</strong>, Mantas Mazeika, Dawn Song, Jacob Steinhardt
+              <br>
+							<em>ICLR 2021</em>
+              <br>
+              [<a href="https://arxiv.org/abs/2009.03300">arXiv</a>]
+              [<a href="https://github.com/hendrycks/test">Code</a>]
+              <p></p>
+              <p>
+                We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.
+              </p>
+            </td>
+          </tr>
+
+
+          <p style="text-align:right;font-size:small;"><a href="https://github.com/jonbarron/website">Website template</a></p>
         </tbody></table>
       </td>
     </tr>
