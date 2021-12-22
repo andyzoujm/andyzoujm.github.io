@@ -23,7 +23,7 @@
               <p>I am a 4th Yr EECS MS student at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a>. I am interested in Trustworthy Machine Learning.
               </p>
               <p>
-                Previously, I received my BA in Computer Science and Applied Math from Berkeley (2018-2021). During my undergrad studies, I did research at <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a>, <a href="https://haas.berkeley.edu/">Berkeley Haas</a>, and <a href="https://whitneylab.berkeley.edu/">The Whitney Laboratory</a>.
+                Previously, I received my BA in Computer Science and Applied Math from Berkeley (2018-2021). During my undergrad studies, I did research at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a>, <a href="https://haas.berkeley.edu/">Berkeley Haas</a>, and <a href="https://whitneylab.berkeley.edu/">The Whitney Laboratory</a>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:andyzou_jiaming@berkeley.edu">Email</a> &nbsp/&nbsp
@@ -37,6 +37,7 @@
             </td>
           </tr>
         </tbody></table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
@@ -46,7 +47,6 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -58,8 +58,8 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="survey_stop()" onmouseover="survey_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -136,6 +136,41 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='survey_image'>
+                  <img src='images/wellbeing.jpg' width="160"></div>
+                <img src='images/wellbeing.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/1KsyiqNZq9J5IrAjAj1JSI_JfRXjbk8KP/view">
+                <papertitle>How Would The Viewer Feel? Estimating Wellbeing From Video Scenarios</papertitle>
+              </a>
+              <br>
+              Dan Hendrycks, Steven Basart, Mantas Mazeika, <strong>Andy Zou</strong>, Joe Kwon, Mohammadreza Mostajabi, Dawn Song, Jacob Steinhardt
+              <br>
+							<em>CVPR 2022 submission</em>
+              <br>
+              [<a href="https://drive.google.com/file/d/1KsyiqNZq9J5IrAjAj1JSI_JfRXjbk8KP/view">Draft</a>]
+              <p></p>
+              <p>
+                As video understanding becomes widely used in real-world applications, a key consideration is developing human-centric systems that understand not only the content of the video but also how it would affect the wellbeing and emotional state of viewers. To facilitate research in this setting, we introduce two large-scale datasets with over $60,\!000$ videos manually annotated for subjective wellbeing and emotional response. In experiments, we show how video models that are largely trained to recognize actions and find contours of objects can be repurposed to understand human preferences and the emotional content of videos. We hope our datasets can help foster further advances at the intersection of commonsense video understanding and human preference learning.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
                   <img src='images/multitask.jpg' width="160"></div>
                 <img src='images/multitask.jpg' width="160">
               </div>
@@ -167,7 +202,54 @@
               </p>
             </td>
           </tr>
+
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/ood.jpg' width="160"></div>
+                <img src='images/ood.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/1AgHhTRstAfRgP64eK8H56j59zZC2xCSy/view">
+                <papertitle>Scaling Out-of-Distribution Detection for Real-World Settings</papertitle>
+              </a>
+              <br>
+              Dan Hendrycks, Steven Basart, Mantas Mazeika, <strong>Andy Zou</strong>, Joe Kwon, Mohammadreza Mostajabi, Dawn Song, Jacob Steinhardt
+              <br>
+							<em>ICLR 2022 submission</em>
+              <br>
+              [<a href="https://drive.google.com/file/d/1AgHhTRstAfRgP64eK8H56j59zZC2xCSy/view">Draft</a>]
+              <p></p>
+              <p>
+                To set the stage for more realistic out-of-distribution detection, we depart from small-scale settings and explore large-scale multiclass and multi-label settings with high-resolution images and thousands of classes. To make future work in real-world settings possible, we create new benchmarks for three large-scale settings.
+              </p>
+            </td>
+          </tr>
         </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Other Interests</heading>
+            <p>
+              I was formerly a semi-professional <a href="https://www.facebook.com/andyzou.jiaming/videos/1669886669958710">drummer</a> and a semi-professional <a href="https://www.youtube.com/channel/UCmvUCGX9p6-azd2AetDRI8A">table tennis player</a>, both national ranked.
+              I play the piano and the bass too, and recently got into music production. I also like soccer and skiing. Happy to jam or play : )
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -179,7 +261,7 @@
             </td>
           </tr>
         </tbody></table>
-        
+
       </td>
     </tr>
   </table>
