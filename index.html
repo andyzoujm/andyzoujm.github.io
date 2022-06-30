@@ -61,43 +61,44 @@
           </tr>
         </tbody></table>
 
-        <tr onmouseout="survey_stop()" onmouseover="survey_start()">
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-              <div class="two" id='survey_image'>
-                <img src='images/forecasting.png' width="160"></div>
-              <img src='images/forecasting.png' width="160">
-            </div>
-            <script type="text/javascript">
-              function survey_start() {
-                document.getElementById('survey_image').style.opacity = "1";
-              }
-
-              function survey_stop() {
-                document.getElementById('survey_image').style.opacity = "0";
-              }
-              survey_stop()
-            </script>
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://arxiv.org/abs/">
-              <papertitle>Forecasting Future World Events with Neural Networks</papertitle>
-            </a>
-            <br>
-            <strong>Andy Zou</strong>, Tristan Xiao, Ryan Jia, Joe Kwon, Mantas Mazeika, Richard Li, Dawn Song, Jacob Steinhardt, Owain Evans, Dan Hendrycks
-            <br>
-            <em>NeurIPS 2022 submission</em>
-            <br>
-            [<a href="https://arxiv.org/abs/">arXiv</a>]
-            [<a href="https://github.com/andyzoujm/autocast">Code</a>]
-            <p></p>
-            <p>
-              Forecasting future world events is a challenging but valuable task. Forecasts of climate, geopolitical conflict, pandemics and economic indicators help shape policy and decision making. In these domains, the judgment of expert humans contributes to the best forecasts. Given advances in language modeling, can these forecasts be automated? To this end, we introduce Autocast, a dataset containing thousands of forecasting questions and an accompanying news corpus. Questions are taken from forecasting tournaments, ensuring high quality, real-world importance, and diversity. The news corpus is organized by date, allowing us to precisely simulate the conditions under which humans made past forecasts (avoiding leakage from the future). Motivated by the difficulty of forecasting numbers across orders of magnitude (e.g. global cases of COVID-19 in 2022), we also curate IntervalQA, a dataset of numerical questions and metrics for calibration. We test language models on our forecasting task and find that performance is far below a human expert baseline. However, performance improves with increased model size and incorporation of relevant information from the news corpus. In sum, Autocast poses a novel challenge for large language models and improved performance could bring large practical benefits.
-            </p>
-          </td>
-        </tr>
-
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/forecasting.png' width="160"></div>
+                <img src='images/forecasting.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+  
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/">
+                <papertitle>Forecasting Future World Events with Neural Networks</papertitle>
+              </a>
+              <br>
+              <strong>Andy Zou</strong>, Tristan Xiao, Ryan Jia, Joe Kwon, Mantas Mazeika, Richard Li, Dawn Song, Jacob Steinhardt, Owain Evans, Dan Hendrycks
+              <br>
+              <em>NeurIPS 2022 submission</em>
+              <br>
+              [<a href="https://arxiv.org/abs/">arXiv</a>]
+              [<a href="https://github.com/andyzoujm/autocast">Code</a>]
+              <p></p>
+              <p>
+                Forecasting future world events is a challenging but valuable task. Forecasts of climate, geopolitical conflict, pandemics and economic indicators help shape policy and decision making. In these domains, the judgment of expert humans contributes to the best forecasts. Given advances in language modeling, can these forecasts be automated? To this end, we introduce Autocast, a dataset containing thousands of forecasting questions and an accompanying news corpus. Questions are taken from forecasting tournaments, ensuring high quality, real-world importance, and diversity. The news corpus is organized by date, allowing us to precisely simulate the conditions under which humans made past forecasts (avoiding leakage from the future). Motivated by the difficulty of forecasting numbers across orders of magnitude (e.g. global cases of COVID-19 in 2022), we also curate IntervalQA, a dataset of numerical questions and metrics for calibration. We test language models on our forecasting task and find that performance is far below a human expert baseline. However, performance improves with increased model size and incorporation of relevant information from the news corpus. In sum, Autocast poses a novel challenge for large language models and improved performance could bring large practical benefits.
+              </p>
+            </td>
+          </tr>
+          
           <tr onmouseout="survey_stop()" onmouseover="survey_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
