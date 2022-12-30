@@ -21,7 +21,7 @@
               <p style="text-align:center">
                 <name>Andy Zou</name>
               </p>
-              <p>I am a first-year PhD student in the Compute Science Department at CMU, advised by <a href="https://zicokolter.com/">Zico Kolter</a> and <a href="https://www.cs.cmu.edu/~mfredrik/">Matt Fredrikson</a>. I am interested in <a href="https://www.mlsafety.org/">Machine Learning Safety</a>.
+              <p>I am a first-year PhD student in the Compute Science Department at CMU, advised by <a href="https://zicokolter.com/">Zico Kolter</a> and <a href="https://www.cs.cmu.edu/~mfredrik/">Matt Fredrikson</a>. I am interested in AI Safety.
               </p>
               <p>
                 I received my MS and BS from UC Berkeley where I was advised by <a href="https://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a> and <a href="https://jsteinhardt.stat.berkeley.edu/">Jacob Steinhardt</a>.
@@ -43,8 +43,8 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>What's New</heading>
-              <p>[Sep 14, 2022] We announce the <a href="https://forecasting.mlsafety.org/">Autocast Competition</a> with a $625,000 prize pool! The CC-NEWS articles can be downloaded <a href="https://drive.google.com/file/d/1-9bK_3fl41GyCeMrzfneItu5VT0Qx0rZ/view">here</a>.</p>
-              <p>[Jul 18, 2022] We announce the <a href="https://trojandetection.ai/">Trojan Detection Challenge</a> with a $50,000 prize pool!</p>
+              <!-- <p>[Sep 14, 2022] We announce the <a href="https://forecasting.mlsafety.org/">Autocast Competition</a> with a $625,000 prize pool! The CC-NEWS articles can be downloaded <a href="https://drive.google.com/file/d/1-9bK_3fl41GyCeMrzfneItu5VT0Qx0rZ/view">here</a>.</p>
+              <p>[Jul 18, 2022] We announce the <a href="https://trojandetection.ai/">Trojan Detection Challenge</a> with a $50,000 prize pool!</p> -->
               <p>[Jun 30, 2022] <strong>Autocast</strong> and <strong>IntervalQA</strong> datasets released <a href="https://github.com/andyzoujm/autocast">here</a>.</p>
               <p>[Dec 9, 2021] <strong>PixMix</strong> code and weights released <a href="https://github.com/andyzoujm/pixmix/">here</a>.</p>
               <p>[Oct 25, 2021] <strong>Jiminy Cricket</strong> environment released <a href="https://github.com/hendrycks/jiminy-cricket/">here</a>.</p>
@@ -64,6 +64,42 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/wellbeing.jpg' width="160"></div>
+                <img src='images/wellbeing.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/pdf?id=jbdp9m7nr0R">
+                <papertitle>How Would The Viewer Feel? Estimating Wellbeing From Video Scenarios</papertitle>
+              </a>
+              <br>
+              Mantas Mazeika*, Eric Tang*, <strong>Andy Zou</strong>, Steven Basart, Jun Shern Chan, Dawn Song, David Forsyth, Jacob Steinhardt, Dan Hendrycks
+              <br>
+							<em>NeurIPS 2022 Oral</em>
+              <br>
+              [<a href="https://openreview.net/pdf?id=jbdp9m7nr0R">arXiv</a>]
+              [<a href="https://github.com/hendrycks/emodiversity">Code</a>]
+              <p></p>
+              <p>
+                As video understanding becomes widely used in real-world applications, a key consideration is developing human-centric systems that understand not only the content of the video but also how it would affect the wellbeing and emotional state of viewers. To facilitate research in this setting, we introduce two large-scale datasets with over 60,000 videos manually annotated for subjective wellbeing and emotional response. In experiments, we show how video models that are largely trained to recognize actions and find contours of objects can be repurposed to understand human preferences and the emotional content of videos. We hope our datasets can help foster further advances at the intersection of commonsense video understanding and human preference learning.
+              </p>
+            </td>
+          </tr>
           
           <tr onmouseout="survey_stop()" onmouseover="survey_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -97,42 +133,6 @@
               <p></p>
               <p>
                 Forecasting future world events is a challenging but valuable task. Forecasts of climate, geopolitical conflict, pandemics and economic indicators help shape policy and decision making. In these domains, the judgment of expert humans contributes to the best forecasts. Given advances in language modeling, can these forecasts be automated? To this end, we introduce Autocast, a dataset containing thousands of forecasting questions and an accompanying news corpus. Questions are taken from forecasting tournaments, ensuring high quality, real-world importance, and diversity. The news corpus is organized by date, allowing us to precisely simulate the conditions under which humans made past forecasts (avoiding leakage from the future). We test language models on our forecasting task and find that performance is far below a human expert baseline. However, performance improves with increased model size and incorporation of relevant information from the news corpus. In sum, Autocast poses a novel challenge for large language models and improved performance could bring large practical benefits.
-              </p>
-            </td>
-          </tr>
-
-          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='survey_image'>
-                  <img src='images/wellbeing.jpg' width="160"></div>
-                <img src='images/wellbeing.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function survey_start() {
-                  document.getElementById('survey_image').style.opacity = "1";
-                }
-
-                function survey_stop() {
-                  document.getElementById('survey_image').style.opacity = "0";
-                }
-                survey_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openreview.net/pdf?id=jbdp9m7nr0R">
-                <papertitle>How Would The Viewer Feel? Estimating Wellbeing From Video Scenarios</papertitle>
-              </a>
-              <br>
-              Mantas Mazeika*, Eric Tang*, <strong>Andy Zou</strong>, Steven Basart, Jun Shern Chan, Dawn Song, David Forsyth, Jacob Steinhardt, Dan Hendrycks
-              <br>
-							<em>NeurIPS 2022</em>
-              <br>
-              [<a href="https://openreview.net/pdf?id=jbdp9m7nr0R">arXiv</a>]
-              [<a href="https://github.com/hendrycks/emodiversity">Code</a>]
-              <p></p>
-              <p>
-                As video understanding becomes widely used in real-world applications, a key consideration is developing human-centric systems that understand not only the content of the video but also how it would affect the wellbeing and emotional state of viewers. To facilitate research in this setting, we introduce two large-scale datasets with over 60,000 videos manually annotated for subjective wellbeing and emotional response. In experiments, we show how video models that are largely trained to recognize actions and find contours of objects can be repurposed to understand human preferences and the emotional content of videos. We hope our datasets can help foster further advances at the intersection of commonsense video understanding and human preference learning.
               </p>
             </td>
           </tr>
