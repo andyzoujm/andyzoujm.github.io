@@ -21,7 +21,7 @@
               <p style="text-align:center">
                 <name>Andy Zou</name>
               </p>
-              <p>I am a first-year PhD student in the Compute Science Department at CMU, advised by <a href="https://zicokolter.com/">Zico Kolter</a> and <a href="https://www.cs.cmu.edu/~mfredrik/">Matt Fredrikson</a>. I am interested in <a href="https://mlsafety.org/">ML Safety</a>.
+              <p>I am a first-year PhD student in the Compute Science Department at CMU, advised by <a href="https://zicokolter.com/">Zico Kolter</a> and <a href="https://www.cs.cmu.edu/~mfredrik/">Matt Fredrikson</a>. I am interested in AI Safety.
               </p>
               <p>
                 I received my MS and BS from UC Berkeley where I was advised by <a href="https://people.eecs.berkeley.edu/~dawnsong/">Dawn Song</a> and <a href="https://jsteinhardt.stat.berkeley.edu/">Jacob Steinhardt</a>.
@@ -64,6 +64,150 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/multitask.jpg' width="160"></div>
+                <img src='images/multitask.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2009.03300">
+                <papertitle>Measuring Massive Multitask Language Understanding</papertitle>
+              </a>
+              <br>
+              Dan Hendrycks, Collin Burns, Steven Basart, <strong>Andy Zou</strong>, Mantas Mazeika, Dawn Song, Jacob Steinhardt
+              <br>
+							<em>ICLR 2021</em>
+              <br>
+              [<a href="https://arxiv.org/abs/2009.03300">arXiv</a>]
+              [<a href="https://github.com/hendrycks/test">Code</a>]
+              <p></p>
+              <p>
+                We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/ood.jpg' width="160"></div>
+                <img src='images/ood.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1911.11132">
+                <papertitle>Scaling Out-of-Distribution Detection for Real-World Settings</papertitle>
+              </a>
+              <br>
+              Dan Hendrycks, Steven Basart, Mantas Mazeika, <strong>Andy Zou</strong>, Joe Kwon, Mohammadreza Mostajabi, Dawn Song, Jacob Steinhardt
+              <br>
+							<em>ICML 2022</em>
+              <br>
+              [<a href="https://arxiv.org/abs/1911.11132">arXiv</a>]
+              [<a href="https://github.com/hendrycks/anomaly-seg">Code</a>]
+              <p></p>
+              <p>
+                To set the stage for more realistic out-of-distribution detection, we depart from small-scale settings and explore large-scale multiclass and multi-label settings with high-resolution images and thousands of classes. To make future work in real-world settings possible, we create new benchmarks for three large-scale settings.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/fractal.png' width="160"></div>
+                <img src='images/fractal.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2112.05135">
+                <papertitle>PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures</papertitle>
+              </a>
+              <br>
+              Dan Hendrycks*, <strong>Andy Zou*</strong>, Mantas Mazeika, Leonard Tang, Dawn Song, and Jacob Steinhardt
+              <br>
+							<em>CVPR 2022</em>
+              <br>
+              [<a href="https://arxiv.org/abs/2112.05135">arXiv</a>]
+              [<a href="https://github.com/andyzoujm/pixmix/">Code</a>]
+              <p></p>
+              <p>
+                In real-world applications of machine learning, reliable and safe systems must consider measures of performance beyond standard test set accuracy. These other goals include out-of-distribution (OOD) robustness, prediction consistency, resilience to adversaries, calibrated uncertainty estimates, and the ability to detect anomalous inputs. To meet this challenge, we design a new data augmentation strategy utilizing the natural structural complexity of pictures such as fractals, which outperforms numerous baselines, is near Pareto-optimal, and roundly improves safety measures.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
+                  <img src='images/jiminy.jpg' width="160"></div>
+                <img src='images/jiminy.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2110.13136">
+                <papertitle>What Would Jiminy Cricket Do? Towards Agents That Behave Morally</papertitle>
+              </a>
+              <br>
+              Dan Hendrycks*, Mantas Mazeika*, <strong>Andy Zou</strong>, Sahil Patel, Christine Zhu, Jesus Navarro, Dawn Song, Bo Li, Jacob Steinhardt
+              <br>
+							<em>NeurIPS 2021</em>
+              <br>
+              [<a href="https://arxiv.org/abs/2110.13136">arXiv</a>]
+              [<a href="https://github.com/hendrycks/jiminy-cricket">Code</a>]
+              <p></p>
+              <p>
+                To facilitate the development of agents that avoid causing wanton harm, we introduce Jiminy Cricket, an environment suite of 25 text-based adventure games with thousands of diverse, morally salient scenarios. By annotating every possible game state, the Jiminy Cricket environments robustly evaluate whether agents can act morally while maximizing reward. Using models with commonsense moral knowledge, we create an elementary artificial conscience that assesses and guides agents. In extensive experiments, we find that the artificial conscience approach can steer agents towards moral behavior without sacrificing performance.
+              </p>
+            </td>
+          </tr>
 
           <tr onmouseout="survey_stop()" onmouseover="survey_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -136,152 +280,6 @@
               </p>
             </td>
           </tr>
-
-          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='survey_image'>
-                  <img src='images/fractal.png' width="160"></div>
-                <img src='images/fractal.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function survey_start() {
-                  document.getElementById('survey_image').style.opacity = "1";
-                }
-
-                function survey_stop() {
-                  document.getElementById('survey_image').style.opacity = "0";
-                }
-                survey_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2112.05135">
-                <papertitle>PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures</papertitle>
-              </a>
-              <br>
-              Dan Hendrycks*, <strong>Andy Zou*</strong>, Mantas Mazeika, Leonard Tang, Dawn Song, and Jacob Steinhardt
-              <br>
-							<em>CVPR 2022</em>
-              <br>
-              [<a href="https://arxiv.org/abs/2112.05135">arXiv</a>]
-              [<a href="https://github.com/andyzoujm/pixmix/">Code</a>]
-              <p></p>
-              <p>
-                In real-world applications of machine learning, reliable and safe systems must consider measures of performance beyond standard test set accuracy. These other goals include out-of-distribution (OOD) robustness, prediction consistency, resilience to adversaries, calibrated uncertainty estimates, and the ability to detect anomalous inputs. To meet this challenge, we design a new data augmentation strategy utilizing the natural structural complexity of pictures such as fractals, which outperforms numerous baselines, is near Pareto-optimal, and roundly improves safety measures.
-              </p>
-            </td>
-          </tr>
-
-          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='survey_image'>
-                  <img src='images/ood.jpg' width="160"></div>
-                <img src='images/ood.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function survey_start() {
-                  document.getElementById('survey_image').style.opacity = "1";
-                }
-
-                function survey_stop() {
-                  document.getElementById('survey_image').style.opacity = "0";
-                }
-                survey_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/1911.11132">
-                <papertitle>Scaling Out-of-Distribution Detection for Real-World Settings</papertitle>
-              </a>
-              <br>
-              Dan Hendrycks, Steven Basart, Mantas Mazeika, <strong>Andy Zou</strong>, Joe Kwon, Mohammadreza Mostajabi, Dawn Song, Jacob Steinhardt
-              <br>
-							<em>ICML 2022</em>
-              <br>
-              [<a href="https://arxiv.org/abs/1911.11132">arXiv</a>]
-              [<a href="https://github.com/hendrycks/anomaly-seg">Code</a>]
-              <p></p>
-              <p>
-                To set the stage for more realistic out-of-distribution detection, we depart from small-scale settings and explore large-scale multiclass and multi-label settings with high-resolution images and thousands of classes. To make future work in real-world settings possible, we create new benchmarks for three large-scale settings.
-              </p>
-            </td>
-          </tr>
-
-          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='survey_image'>
-                  <img src='images/jiminy.jpg' width="160"></div>
-                <img src='images/jiminy.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function survey_start() {
-                  document.getElementById('survey_image').style.opacity = "1";
-                }
-
-                function survey_stop() {
-                  document.getElementById('survey_image').style.opacity = "0";
-                }
-                survey_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2110.13136">
-                <papertitle>What Would Jiminy Cricket Do? Towards Agents That Behave Morally</papertitle>
-              </a>
-              <br>
-              Dan Hendrycks*, Mantas Mazeika*, <strong>Andy Zou</strong>, Sahil Patel, Christine Zhu, Jesus Navarro, Dawn Song, Bo Li, Jacob Steinhardt
-              <br>
-							<em>NeurIPS 2021</em>
-              <br>
-              [<a href="https://arxiv.org/abs/2110.13136">arXiv</a>]
-              [<a href="https://github.com/hendrycks/jiminy-cricket">Code</a>]
-              <p></p>
-              <p>
-                To facilitate the development of agents that avoid causing wanton harm, we introduce Jiminy Cricket, an environment suite of 25 text-based adventure games with thousands of diverse, morally salient scenarios. By annotating every possible game state, the Jiminy Cricket environments robustly evaluate whether agents can act morally while maximizing reward. Using models with commonsense moral knowledge, we create an elementary artificial conscience that assesses and guides agents. In extensive experiments, we find that the artificial conscience approach can steer agents towards moral behavior without sacrificing performance.
-              </p>
-            </td>
-          </tr>
-
-          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='survey_image'>
-                  <img src='images/multitask.jpg' width="160"></div>
-                <img src='images/multitask.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function survey_start() {
-                  document.getElementById('survey_image').style.opacity = "1";
-                }
-
-                function survey_stop() {
-                  document.getElementById('survey_image').style.opacity = "0";
-                }
-                survey_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2009.03300">
-                <papertitle>Measuring Massive Multitask Language Understanding</papertitle>
-              </a>
-              <br>
-              Dan Hendrycks, Collin Burns, Steven Basart, <strong>Andy Zou</strong>, Mantas Mazeika, Dawn Song, Jacob Steinhardt
-              <br>
-							<em>ICLR 2021</em>
-              <br>
-              [<a href="https://arxiv.org/abs/2009.03300">arXiv</a>]
-              [<a href="https://github.com/hendrycks/test">Code</a>]
-              <p></p>
-              <p>
-                We propose a new test to measure a text model's multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability. By comprehensively evaluating the breadth and depth of a model's academic and professional understanding, our test can be used to analyze models across many tasks and to identify important shortcomings.
-              </p>
-            </td>
-          </tr>
-
-          
 
         </tbody></table>
 
