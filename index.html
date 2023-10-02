@@ -67,6 +67,44 @@
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='survey_image'>
+                  <img src='images/repe.png' width="160"></div>
+                <img src='images/repe.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+  
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.ai-transparency.org/">
+                <papertitle>Representation Engineering: A Top-Down Approach to AI Transparency</papertitle>
+              </a>
+              <br>
+              <strong>Andy Zou</strong>, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, Zico Kolter, Dan Hendrycks
+              <br>
+              <em>arXiv</em>
+              <br>
+              [<a href="https://arxiv.org/abs/xxxx.xxxxx">arXiv</a>]
+              [<a href="https://www.ai-transparency.org/">Demo</a>]
+              [<a href="https://github.com/andyzoujm/representation-engineering">Code</a>]
+              <p></p>
+              <p>
+                In this paper, we introduce and characterize the emerging area of representation engineering (RepE), an approach to enhancing the transparency of AI systems that draws on insights from cognitive neuroscience. RepE places population-level representations, rather than neurons or circuits, at the center of analysis, equipping us with novel methods for monitoring and manipulating high-level cognitive phenomena in deep neural networks (DNNs). We provide baselines and an initial analysis of RepE techniques, showing that they offer simple yet effective solutions for improving our understanding and control of large language models. We showcase how these methods can provide traction on a wide range of safety-relevant problems, including truthfulness, memorization, power-seeking, and more, demonstrating the promise of representation-centered transparency research. We hope that this work catalyzes further exploration of RepE and fosters advancements in the transparency and safety of AI systems.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
                   <img src='images/gcg.png' width="160"></div>
                 <img src='images/gcg.png' width="160">
               </div>
@@ -95,7 +133,7 @@
               [<a href="https://github.com/llm-attacks/llm-attacks">Code</a>]
               [<a href="https://www.nytimes.com/2023/07/27/technology/researchers-poke-holes-in-safety-controls-of-chatgpt-and-other-chatbots.html">NY Times</a>]
               [<a href="https://www.theregister.com/2023/07/27/llm_automated_attacks/">The Register</a>]
-              [<a href="https://www.wired.com/story/ai-adversarial-attacks/">Wired</a>
+              [<a href="https://www.wired.com/story/ai-adversarial-attacks/">Wired</a>]
               <p></p>
               <p>
                 We found adversarial suffixes that completely circumvent the alignment of open source LLMs. More concerningly, the same prompts transfer to ChatGPT, Claude, Bard, and LLaMA-2...
